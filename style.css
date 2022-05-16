@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+.container {
+    background-color: blanchedalmond;
+    min-height: 300px;
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.top {
+    background-color: rgb(37, 163, 163);
+    height: 100px;
+    border-radius:5px 5px 2px 2px;
+}
+
+.content {
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 20px;
+
+}
+
+
+.userpic {
+    height: 80px;
+}
+
+.location {
+    display: flex;
+    margin: 10px auto
+}
+.mapmarkpic {
+    height: 18px;
+    margin-right: 8px;
+}
+
+.info {
+    margin: 10px auto;
+}
+
+.gear {
+    height:15px;
+    margin-right: 5px;
+}
+
+a {
+    position: relative;
+    top: -3px;
+    color:rgb(37, 163, 163) ;
+}
